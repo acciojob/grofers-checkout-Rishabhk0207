@@ -12,7 +12,7 @@ const getSum = () => {
         sum += Number(key.textContent);
     };
     let row = document.createElement('tr');
-     row.classList.add('#ans')
+     row.id = 'ans';
     let col = document.createElement('td');
     col.textContent = "Total Price";
     row.appendChild(col);
